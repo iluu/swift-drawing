@@ -8,7 +8,7 @@
         <!--Happiness View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HappinessViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HappinessViewController" customModule="Happiness" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -38,6 +38,9 @@
                             <constraint firstItem="2mY-2Q-soc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FvP-GV-efa"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="2mY-2Q-soc" id="Pnn-Dn-p8v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
